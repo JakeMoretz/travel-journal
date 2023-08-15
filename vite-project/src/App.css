@@ -1,0 +1,79 @@
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url(/background.jpg);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.card--img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+span {
+    font-size: 2em;
+    padding: 5px;
+    color: rgb(185, 146, 48);
+}
+
+.card {
+    width: 300px;
+    margin-inline: auto;
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid rgb(185, 146, 48);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.year {
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+}
+
+.location {
+    text-align: center;
+}
+
+.location-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.maps {
+    color:  rgb(185, 146, 48);
+    text-decoration: none;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    color: rgb(146, 114, 34);
+}
+
+nav > h1 {
+    padding: 20px;
+    font-size: 1.5em;
+}
